@@ -58,6 +58,24 @@ button:hover {
     background-color: #2ea043;
 }
 
+@media (max-width: 1024px) {
+    .container {
+        margin: 20px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 20px 15px;
+    }
+}
+
 #copyButton.copied {
     background-color: #238636;
 }
