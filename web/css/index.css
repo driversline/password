@@ -4,27 +4,35 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #121212;
+    background-color: #1e1e1e;
     margin: 0;
     color: #ffffff;
 }
 
 .container {
-    background-color: #1e1e1e;
+    background-color: #2d2d2d;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     text-align: center;
+    width: 300px;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: block;
 }
 
 input[type="number"] {
-    width: 60px;
-    padding: 5px;
-    margin-bottom: 10px;
-    background-color: #333;
-    color: #fff;
-    border: 1px solid #444;
+    width: 80px;
+    padding: 8px;
+    margin-bottom: 15px;
+    background-color: #3d3d3d;
+    color: #ffffff;
+    border: 1px solid #555;
     border-radius: 4px;
+    font-size: 1em;
 }
 
 button {
@@ -35,15 +43,31 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 5px;
+    font-size: 1em;
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
-.password {
+.password-container {
     margin-top: 20px;
+    padding: 15px;
+    background-color: #3d3d3d;
+    border-radius: 5px;
+    border: 1px solid #555;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password {
     font-size: 1.2em;
     font-weight: bold;
-    color: #00ff00;
+    color: #00ff88;
+    word-wrap: break-word;
+    text-align: center;
+    width: 100%;
 }
