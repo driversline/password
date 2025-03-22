@@ -1,9 +1,7 @@
 function generatePassword() {
     const length = parseInt(document.getElementById('length').value, 10);
-    if (length <= 0) {
-        alert("Длина пароля должна быть больше 0.");
-        return;
-    }
+    if (length <= 0) return;
+
     const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]:;?><,./-=";
     let password = "";
     for (let i = 0; i < length; i++) {
@@ -25,7 +23,6 @@ function copyPassword() {
                 setTimeout(() => {
                     copyButton.textContent = 'Копировать';
                 }, 2000);
-            })
-            .catch(() => console.log('Не удалось скопировать пароль.'));
+            });
     }
 }
