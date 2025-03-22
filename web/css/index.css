@@ -4,41 +4,41 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #0d1117; /* GitHub Dark background */
+    background-color: #0d1117;
     margin: 0;
-    color: #c9d1d9; /* GitHub Dark text color */
+    color: #c9d1d9;
 }
 
 .container {
-    background-color: #161b22; /* GitHub Dark container background */
+    background-color: #161b22;
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     text-align: center;
-    width: 300px;
+    width: 320px;
 }
 
 label {
     font-size: 1.1em;
     margin-bottom: 10px;
     display: block;
-    color: #c9d1d9; /* GitHub Dark text color */
+    color: #c9d1d9;
 }
 
 input[type="text"] {
-    width: 120px;
-    padding: 8px;
+    width: 200px;
+    padding: 10px;
     margin-bottom: 15px;
-    background-color: #0d1117; /* GitHub Dark input background */
-    color: #c9d1d9; /* GitHub Dark text color */
-    border: 1px solid #30363d; /* GitHub Dark border color */
+    background-color: #0d1117;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
     border-radius: 6px;
     font-size: 1em;
     text-align: center;
 }
 
 input[type="text"]:focus {
-    border-color: #58a6ff; /* GitHub Dark focus border color */
+    border-color: #58a6ff;
     outline: none;
 }
 
