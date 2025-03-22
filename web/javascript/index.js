@@ -14,9 +14,7 @@ function copyPassword() {
     const passwordText = passwordElement.textContent;
     if (passwordText) {
         navigator.clipboard.writeText(passwordText)
-            .then(() => alert('Пароль скопирован!'))
-            .catch(() => alert('Не удалось скопировать пароль.'));
-    } else {
-        alert('Сначала сгенерируйте пароль.');
+            .then(() => console.log('Пароль скопирован!'))
+            .catch(() => console.log('Не удалось скопировать пароль.'));
     }
 }
