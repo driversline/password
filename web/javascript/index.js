@@ -8,3 +8,15 @@ function generatePassword() {
     }
     document.getElementById('password').textContent = password;
 }
+
+function copyPassword() {
+    const passwordElement = document.getElementById('password');
+    const passwordText = passwordElement.textContent;
+    if (passwordText) {
+        navigator.clipboard.writeText(passwordText)
+            .then(() => alert('Пароль скопирован!'))
+            .catch(() => alert('Не удалось скопировать пароль.'));
+    } else {
+        alert('Сначала сгенерируйте пароль.');
+    }
+}
