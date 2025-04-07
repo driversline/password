@@ -7,7 +7,8 @@
 - Всеми типами символов (A-Z, a-z, 0-9, !@# и др.)
 
 <details>
-<summary>📋 <b>Полный набор символов (84)</b></summary>
+<summary>📋 <strong>Полный набор символов (84)<strong></summary>
+  
 - ABCDEFGHIJKLMNOPQRSTUVWXYZ
   
 - abcdefghijklmnopqrstuvwxyz
@@ -15,6 +16,7 @@
 - 0123456789
   
 - !@#$%^&*()_+~`|}{[]:;?><,./-=
+
 </details>
 
 ## 🚀 Как использовать?
