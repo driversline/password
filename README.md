@@ -7,7 +7,7 @@
 - Всеми типами символов (A-Z, a-z, 0-9, !@#).
 
 <details>
-<summary>📋 <strong>Полный набор символов (84)<strong></summary>
+<summary>📋 <b>Полный набор символов (84)<b></summary>
   
 - ABCDEFGHIJKLMNOPQRSTUVWXYZ
   
